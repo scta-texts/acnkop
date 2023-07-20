@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Symbolum Quicunque</title>
+        <author ref="#Athanasius">Athanasius</author>
+        <!-- editor Philip Schaff -->
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Symbolum Quicunque</title>
+          <date when="2023-07-20">July 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="C" n="cod-ui8u89">New York, 1919, v. 2</witness>
+          <!--The Creeds Of Christendom, with a History and Critical Notes: Volume 2, The Greek and  Latin creeds, with translations by Schaff, Philip, 1819-1893; -->
+          <!--https://archive.org/details/TheCreedsOfChristendomV2/page/66/mode/2up-->
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a diplomatic edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#C" n="66"/>
+        <cb ed="#C" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="acnkop-c1c1c1">
+        <head xml:id="acnkop-c1c1c1-Hd1e101">Symboloum Quicunque</head>
+        <p xml:id="acnkop-c1c1c1-d1e103">
+          <pb ed="#C" n="66"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C" n="1"/>Quicumque vult salvus esse: 
+          <lb ed="#C" n="2"/>ante omnia opus est, ut teneat ca<lb ed="#C" break="no" n="3"/>tholicam 
+          fidem
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e116">
+          <lb ed="#C" n="4"/>Quam nisi quisque integram 
+          <lb ed="#C" n="5"/>inviolatamque servaverit: absque dubio in aeternam peribit.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e123">
+          <lb ed="#C" n="6"/>Fides autem catholica haec est: 
+          <lb ed="#C" n="7"/>ut unum Deum in Trinitate, et 
+          <lb ed="#C" n="8"/>Trinitatem in unitate veneremur;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e132">
+          <lb ed="#C" n="9"/>Neque confundentes perso<lb ed="#C" break="no" n="10"/>nas: 
+          neque substantiam separan<lb ed="#C" break="no" n="11"/>tes.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e142">
+          <lb ed="#C" n="12"/>Alia est enim persona Pa<lb ed="#C" break="no" n="13"/>tris 
+          alia Filii: alia Spiritus 
+          <lb ed="#C" n="14"/>Sancti.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e151">
+          <lb ed="#C" n="15"/>Sed Patris et Fili et Spiri<lb ed="#C" break="no" n="16"/>tus 
+          Sancti una est divinitas 
+          <lb ed="#C" n="17"/>aequalis gloria. coaeterna maies<lb ed="#C" break="no" n="18"/>tas.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e162">
+          <lb ed="#C" n="19"/>Qualis Pater: talis Filius: 
+          <lb ed="#C" n="20"/>talis [et] Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e169">
+          <lb ed="#C" n="21"/>Increatus Pater: increatus 
+          <lb ed="#C" n="22"/>Filius: increatus [et] Spiritus 
+          <lb ed="#C" n="23"/>Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e178">
+          <lb ed="#C" n="24"/>Immensus Pater: immensus 
+          <lb ed="#C" n="25"/>Filius: immensus [et] Spiritus 
+          <lb ed="#C" n="26"/>Sanctus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e187">
+          <pb ed="#C" n="67"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C" n="1"/>Aeternus Pater aeternus Filius aeternus Spiritus Sanctus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e197">
+          <lb ed="#C" n="2"/>Et tamen non tres aeterni: 
+          <lb ed="#C" n="3"/>sed unus aeternus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e204">
+          <lb ed="#C" n="4"/>Sicut non tres increati: nec 
+          <lb ed="#C" n="5"/>tres immensi: sed unus increa<lb ed="#C" break="no" n="6"/>tus 
+          et unus immensus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e213">
+          <lb ed="#C" n="7"/>Similiter omnipotens Pater: 
+          <lb ed="#C" n="8"/>omnipotens Filius: omnipotens 
+          <lb ed="#C" n="9"/>[et] Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e222">
+          <lb ed="#C" n="10"/>Et tamen non tres omnipo<lb ed="#C" break="no" n="11"/>tentes 
+          sed unus omnipotens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e229">
+          <lb ed="#C" n="12"/>Ita deus Pater: deus Fili<lb ed="#C" break="no" n="13"/>us: 
+          deus [et] Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e236">
+          <lb ed="#C" n="14"/>Et tamen non tres dii: sed 
+          <lb ed="#C" n="15"/>unus est Deus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e244">
+          <lb ed="#C" n="16"/>Ita dominus Pater: domi<lb ed="#C" break="no" n="17"/>nus 
+          Filius: dominus [et] Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e251">
+          <lb ed="#C" n="18"/>Et tamen non tres domini: 
+          <lb ed="#C" n="19"/>sed unus [est] Dominus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e258">
+          <lb ed="#C" n="20"/>Quia sicut singulatim unam<lb ed="#C" break="no" n="21"/>quamque 
+          personam Deum ac Do<lb ed="#C" break="no" n="22"/>minum 
+          confiteri christiana veri<lb ed="#C" break="no" n="23"/>tate 
+          compellimur:
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e269">
+          <lb ed="#C" n="24"/>Ita tres deos, aut [tres] do<lb ed="#C" break="no" n="25"/>minos 
+          dicere catholica religione 
+          <lb ed="#C" n="26"/>prohibemur
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e278">
+          <lb ed="#C" n="27"/>Pater a nullo est factus: nec 
+          <lb ed="#C" n="28"/>creatus, nec genitus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e285">
+          <lb ed="#C" n="29"/>Filius a Patre solo est: non 
+          <lb ed="#C" n="30"/>factus, nec creatus: sed genitus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e293">
+          <pb ed="#C" n="68"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C" n="1"/>Spiritus Sanctus a Patre et 
+          <lb ed="#C" n="2"/>Filio: non factus, nec creatus, nec 
+          <lb ed="#C" n="3"/>genitus: sed procedens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e306">
+          <lb ed="#C" n="4"/>Unus ergo Pater, non tres 
+          <lb ed="#C" n="5"/>patres: unus Filius, non tres 
+          <lb ed="#C" n="6"/>filii: unus Spiritus Sanctus, non 
+          <lb ed="#C" n="7"/>tres spiritus sancti.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e317">
+          <lb ed="#C" n="8"/>Et in hac Trinitate nihil 
+          <lb ed="#C" n="9"/>prius, aut posterius: nihil majus, 
+          <lb ed="#C" n="10"/>aut minus. 
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e326">
+          <lb ed="#C" n="11"/>Sed totae tres personae coae<lb ed="#C" break="no" n="12"/>ternae 
+          sibi sunt, et coaequales.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e333">
+          <lb ed="#C" n="13"/>Ita, ut per omnia, sicut jam 
+          <lb ed="#C" n="14"/>supra dictum est: et Unitas in 
+          <lb ed="#C" n="15"/>Trinitate, et Trinitas in Unitate, 
+          veneranda sit.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e342">
+          <lb ed="#C" n="16"/>Qui vult ergo salvus esse, 
+          <lb ed="#C" n="17"/>ita de Trinitate sentiat.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e350">
+          <lb ed="#C" n="18"/>Sed necessarium est ad aeter<lb ed="#C" break="no" n="19"/>nam 
+          salutem: ut incarnationem 
+          <lb ed="#C" n="20"/>quoque Domini nostri Jesu Christi 
+          <lb ed="#C" n="21"/>fideliter credat.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e361">
+          <lb ed="#C" n="22"/>Est ergo fides recta, ut cre<lb ed="#C" break="no" n="23"/>damus 
+          et confiteamur: quod Do<lb ed="#C" break="no" n="24"/>minus 
+          noster Jesus Christus Dei
+          <lb ed="#C" n="25"/>Filius, Deus [pariter] et homo est;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e372">
+          <lb ed="#C" n="26"/>Deus [est] ex substantia Pa<lb ed="#C" break="no" n="27"/>tris, 
+          ante secula genitus: et homo 
+          <lb ed="#C" n="28"/>ex substantia matris, in saeculo 
+          <lb ed="#C" n="29"/>natus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e383">
+          <pb ed="#C" n="69"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C" n="1"/>Perfectus Deus perfectus 
+          <lb ed="#C" n="2"/>homo, ex anima rationali et hu<lb ed="#C" break="no" n="3"/>mana 
+          carne subsistens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e396">
+          <lb ed="#C" n="4"/>Aequalis Patri secundum 
+          <lb ed="#C" n="5"/>divinitatem: minor Patre secun<lb ed="#C" break="no" n="6"/>dum 
+          humanitatem.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e405">
+          <lb ed="#C" n="7"/>Qui licet Deus sit et homo; 
+          <lb ed="#C" n="8"/>non duo tamen, sed unus est Chris<lb ed="#C" break="no" n="9"/>tus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e415">
+          <lb ed="#C" n="10"/>Unus autem, non conver<lb ed="#C" break="no" n="11"/>sione 
+          divinitatis in carnem: sed 
+          <lb ed="#C" n="12"/>assumptione humanitatis in De<lb ed="#C" break="no" n="13"/>um.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e426">
+          <lb ed="#C" n="14"/>Unus omnino; non confu<lb ed="#C" break="no" n="15"/>sione 
+          substantiae: sed unitate per<lb ed="#C" break="no" n="16"/>sonae.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e435">
+          <lb ed="#C" n="17"/>Nam sicut anima rationalis 
+          <lb ed="#C" n="18"/>et caro unus est homo: ita Deus 
+          <lb ed="#C" n="19"/>et homo unus est Christus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e444">
+          <lb ed="#C" n="20"/>Qui passus est pro nostra 
+          <lb ed="#C" n="21"/>salute: descendit ad inferos: ter<lb ed="#C" break="no" n="22"/>tia 
+          die resurrexit a mortuis.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e453">
+          <lb ed="#C" n="23"/>Ascendit ad [in] caelos: se<lb ed="#C" break="no" n="24"/>det 
+          ad dexteram [Dei] Patris [om<lb ed="#C" break="no" n="25"/>nipotentis].
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e462">
+          <lb ed="#C" n="26"/>Inde venturus [est] judicare 
+          <lb ed="#C" n="27"/>vivos et mortuos.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e470">
+          <lb ed="#C" n="28"/>Ad cujus adventum omnes 
+          <lb ed="#C" n="29"/>homines resurgere habent cum cor<lb ed="#C" break="no" n="30"/>poribus 
+          suis;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e479">
+          <lb ed="#C" n="31"/>Et reddituri sunt de factis 
+          <lb ed="#C" n="32"/>propriis rationem
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e486">
+          <pb ed="#C" n="70"/>
+          <cb ed="#C" n="a"/>
+          <lb ed="#C" n="1"/>
+          <lb ed="#C" n="2"/>Et qui bona egerunt, ibunt 
+          <lb ed="#C" n="3"/>in vitam aeternam: qui vero mala, in ignem aeternum.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e499">
+          <lb ed="#C" n="4"/>Haec est fides catholica: quam 
+          <lb ed="#C" n="5"/>nisi quisque fideliter firmiterque 
+          <lb ed="#C" n="6"/>crediderit, salvus esse non pote<lb ed="#C" break="no" n="7"/>rit. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

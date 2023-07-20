@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Symbolum Quicunque</title>
+        <author ref="#Athanasius">Athanasius</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Symbolum Quicunque</title>
+          <date when="2023-07-20">July 20, 2023</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref></p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness/>
+          <!-- 
+            born digital edition; 
+            seeded from cod-X87ab6 (The Creeds Of Christendom, with a History and Critical Notes: Volume 2, The Greek and  Latin creeds, with translations by Schaff, Philip, 1819-1893)
+            modified as desired from available witnesses
+          -->
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-critical-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0 
+          guidelines for a critical edition.
+        </p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2023-07-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>  
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+      </div>
+    </front>
+    <body>
+      <div xml:id="acnkop-c1c1c1">
+        <head xml:id="acnkop-c1c1c1-Hd1e101">Symboloum Quicunque</head>
+        <p xml:id="acnkop-c1c1c1-d1e103" n="1">
+          Quicumque vult salvus esse: 
+          ante omnia opus est, ut teneat catholicam 
+          fidem
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e116" n="2">
+          Quam nisi quisque integram 
+          inviolatamque servaverit: absque dubio in aeternam peribit.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e123" n="3">
+          Fides autem catholica haec est: 
+          ut unum Deum in Trinitate, et 
+          Trinitatem in unitate veneremur;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e132" n="4">
+          Neque confundentes personas: 
+          neque substantiam separantes.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e142" n="5">
+          Alia est enim persona Patris 
+          alia Filii: alia Spiritus 
+          Sancti.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e151" n="6">
+          Sed Patris et Fili et Spiritus 
+          Sancti una est divinitas 
+          aequalis gloria. coaeterna maiestas.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e162" n="7">
+          Qualis Pater: talis Filius: 
+          talis et Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e169" n="8">
+          Increatus Pater: increatus 
+          Filius: increatus et Spiritus 
+          Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e178" n="9">
+          Immensus Pater: immensus 
+          Filius: immensus et Spiritus 
+          Sanctus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e187" n="10">
+          Aeternus Pater aeternus Filius aeternus Spiritus Sanctus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e197" n="11">
+          Et tamen non tres aeterni: 
+          sed unus aeternus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e204" n="12">
+          Sicut non tres increati: nec 
+          tres immensi: sed unus increatus 
+          et unus immensus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e213" n="13">
+          Similiter omnipotens Pater: 
+          omnipotens Filius: omnipotens 
+          et Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e222" n="14">
+          Et tamen non tres omnipotentes 
+          sed unus omnipotens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e229" n="15">
+          Ita deus Pater: deus Filius: 
+          deus et Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e236" n="16">
+          Et tamen non tres dii: sed 
+          unus est Deus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e244" n="17">
+          Ita dominus Pater: dominus 
+          Filius: dominus et Spiritus Sanctus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e251" n="18">
+          Et tamen non tres domini: 
+          sed unus est Dominus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e258" n="19">
+          Quia sicut singulatim unamquamque 
+          personam Deum ac Dominum 
+          confiteri christiana veritate 
+          compellimur:
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e269" n="20">
+          Ita tres deos, aut tres dominos 
+          dicere catholica religione 
+          prohibemur
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e278" n="21">
+          Pater a nullo est factus: nec 
+          creatus, nec genitus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e285" n="22">
+          Filius a Patre solo est: non 
+          factus, nec creatus: sed genitus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e293" n="23">
+          Spiritus Sanctus a Patre et 
+          Filio: non factus, nec creatus, nec 
+          genitus: sed procedens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e306" n="24">
+          Unus ergo Pater, non tres 
+          patres: unus Filius, non tres 
+          filii: unus Spiritus Sanctus, non 
+          tres spiritus sancti.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e317" n="25">
+          Et in hac Trinitate nihil 
+          prius, aut posterius: nihil maius, 
+          aut minus. 
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e326" n="26">
+          Sed totae tres personae coaeternae 
+          sibi sunt, et coaequales.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e333" n="27">
+          Ita, ut per omnia, sicut iam 
+          supra dictum est: et Unitas in 
+          Trinitate, et Trinitas in Unitate, 
+          veneranda sit.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e342" n="28">
+          Qui vult ergo salvus esse, 
+          ita de Trinitate sentiat.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e350" n="29">
+          Sed necessarium est ad aeternam 
+          salutem: ut incarnationem 
+          quoque Domini nostri Jesu Christi 
+          fideliter credat.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e361" n="30">
+          Est ergo fides recta, ut credamus 
+          et confiteamur: quod Dominus 
+          noster Jesus Christus Dei
+          Filius, Deus pariter et homo est;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e372" n="31">
+          Deus est ex substantia Patris, 
+          ante secula genitus: et homo 
+          ex substantia matris, in saeculo 
+          natus
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e383" n="32">
+          Perfectus Deus perfectus 
+          homo, ex anima rationali et humana 
+          carne subsistens.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e396" n="33">
+          Aequalis Patri secundum 
+          divinitatem: minor Patre secundum 
+          humanitatem.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e405" n="34">
+          Qui licet Deus sit et homo; 
+          non duo tamen, sed unus est Christus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e415" n="35">
+          Unus autem, non conversione 
+          divinitatis in carnem: sed 
+          assumptione humanitatis in Deum.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e426" n="36">
+          Unus omnino; non confusione 
+          substantiae: sed unitate personae.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e435" n="37">
+          Nam sicut anima rationalis 
+          et caro unus est homo: ita Deus 
+          et homo unus est Christus.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e444" n="38">
+          Qui passus est pro nostra 
+          salute: descendit ad inferos: tertia 
+          die resurrexit a mortuis.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e453" n="39">
+          Ascendit ad in caelos: sedet 
+          ad dexteram Dei Patris omnipotentis.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e462" n="40">
+          Inde venturus est iudicare 
+          vivos et mortuos.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e470" n="41">
+          Ad cuius adventum omnes 
+          homines resurgere habent cum corporibus 
+          suis;
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e479" n="42">
+          Et reddituri sunt de factis 
+          propriis rationem
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e486" n="43">
+          Et qui bona egerunt, ibunt 
+          in vitam aeternam: qui vero mala, in ignem aeternum.
+        </p>
+        <p xml:id="acnkop-c1c1c1-d1e499" n="44">
+          Haec est fides catholica: quam 
+          nisi quisque fideliter firmiterque 
+          crediderit, salvus esse non poterit. 
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
